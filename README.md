@@ -6,14 +6,14 @@ Aqui puedes ver el resultado final -> [https://anell-dev.github.io/Tarjeta-para-
 
 ### El reto
 
-Users should be able to:
+Los usuarios deben ser capaces de:
 
-- View the optimal layout for the component depending on their device's screen size
-- See the social media share links when they click the share icon
+- Ver el diseño óptimo para el componente según el tamaño de pantalla de su dispositivo
+- Ver los enlaces para compartir en las redes sociales cuando hacen clic en el icono de compartir
 
 ### Captura de pantalla
 
-![](./screenshot.jpg)
+![](./screenshots/captura%20resultado%20final%20reto%204.png)
 
 ### Links
 
