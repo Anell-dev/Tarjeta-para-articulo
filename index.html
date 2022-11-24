@@ -1,23 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ES">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-  <title>Article preview component</title>
+  <title>Tarjeta para preview de producto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-  <main></main>
+  <main>
+    <div class="card">
+      <div class="img-container"></div>
+      <div class="product-description-container">
+        <div class="text-container">
+          <h2>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
+          <p>Ever been in a room and felt like something was amazing? Perhaps it felt slightly bare and uninviting.
+            I've got some simple tips to help you make any room feel complete.</p>
+        </div>
 
+        <div class="options-container">
+          <div class="info-person-container">
+            <img src="./images/avatar-michelle.jpg" class="img-michelle" alt="avatar-michlle">
+            <p> <span class="name-person"> Michelle Appleton </span> <br>28 Jun 2022</p>
+          </div>
+
+          <div class="message-and-icon-container fixed">
+            <div class="message-share-container message-hide">
+              <label for="">SHARE</label>
+              <img src="./images/icon-facebook.svg" alt="icon facebook" class="icons-social-media">
+              <img src="./images/icon-twitter.svg" alt="icon twitter" class="icons-social-media">
+              <img src="./images/icon-pinterest.svg" alt="icon pinterest" class="icons-social-media">
+            </div>
+            <div class="icon-share-container">
+              <img src="./images/icon-share.svg" alt="icon-share" class="icon-share">
+            </div>
+          </div>
+        </div>
+
+        <div class="options-container-mobile">
+          <div class="info-person-container">
+            <img src="./images/avatar-michelle.jpg" class="img-michelle" alt="avatar-michlle">
+            <p> <span class="name-person"> Michelle Appleton </span> <br>28 Jun 2022</p>
+          </div>
+
+          <div class="icon-share-container-mobile-before">
+            <img src="./images/icon-share.svg" alt="icon-share" class="icon-share">
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile-share-popup popup-hide">
+        <div class="icons-socila-media-container">
+          <label for="" class="text-share-mobile">SHARE</label>
+          <img src="./images/icon-facebook.svg" alt="icon facebook" class="iconss-social-media">
+          <img src="./images/icon-twitter.svg" alt="icon twitter" class="iconss-social-media">
+          <img src="./images/icon-pinterest.svg" alt="icon pinterest" class="iconss-social-media">
+        </div>
+
+        <div class="icon-share-container-mobile-after">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-share-mobile" width="15" height="13">
+            <path
+              d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z" />
+          </svg>
+        </div>
+      </div>
+
+    </div>
+  </main>
   <footer>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
-        href="#">Your Name Here</a>.
+        href="#https://www.instagram.com/anel.dev/">Edwin Anel González</a>.
     </div>
   </footer>
   <script src="./script.js"></script>
