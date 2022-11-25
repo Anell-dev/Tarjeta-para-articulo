@@ -16,7 +16,7 @@ body {
   width: 700px;
   height: 250px;
   margin: auto;
-  margin-top: 200px;
+  margin-top: 250px;
   border-radius: 10px;
   background-color: hsl(0deg 0% 100%);
 }
@@ -182,16 +182,13 @@ p {
 }
 
 .mobile-share-popup {
-  display: flex;
+  display: none;
   height: 50px;
-
   justify-content: space-evenly;
   align-items: center;
-
   margin-top: 34px;
   border-radius: 0px 0px 10px 10px;
   background-color: hsl(217, 19%, 35%);
-  /* display: none; */
 }
 
 .mobile-share-popup.popup-hide {
@@ -208,7 +205,7 @@ p {
 }
 
 .attribution {
-  margin-top: 200px;
+  margin-top: 70px;
   text-align: center;
 }
 
